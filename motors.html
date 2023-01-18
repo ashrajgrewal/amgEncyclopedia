@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Motors</title>
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -27,9 +27,16 @@
         </div>
     </nav>
 
+    <!-- Description -->
+    <div class="jumbotron text-center">
+        <h1>The Engine Page!</h1>
+        <p class="lead">Here you can click on the engine that interests you and read some information about it. You can
+            also use the email form below to give us suggestions on which AMG engines to cover next, or just to give
+            general feedback! </p>
+    </div>
 
 
-    <!-- Features -->
+    <!-- Motor Selection -->
     <div class="container mb-5 mt-5 pb-5 pt-5">
         <div class="row">
             <div class="col-lg-4">
@@ -45,6 +52,63 @@
                 <a href="./M113Kinfo.html" class="btn btn-primary">Learn More</a>
             </div>
         </div>
+    </div>
+
+    <div class="container mb-5 mt-5 pb-5 pt-5">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="./images/M156img.webp" width="275px">
+            </div>
+            <div class="col-lg-4">
+                <img src="./images/M157img.jpeg" width="250px">
+            </div>
+            <div class="col-lg-4">
+                <img src="./images/M113Kimg.jpeg" width="250px">
+            </div>
+        </div>
+    </div>
+
+    <!-- suggestions -->
+    <div class="jumbotron text-center">
+        <p class="lead mb-4" id="inquiries">Contact Us! </p>
+        <div class="d-flex justify-content-center">
+            <form action="" method="post" id="form-box" class="p-2">
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                    </div>
+                    <input type="text" name="name" class="form-control" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                    </div>
+                    <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-at"></i></span>
+                    </div>
+                    <input type="text" name="subject" class="form-control" placeholder="Enter subject" required>
+                </div>
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-comment-alt"></i></span>
+                    </div>
+                    <textarea name="msg" id="msg" class="form-control" placeholder="Write your message" cols="30"
+                        rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" name="submit" id="submit" class="btn btn-primary btn-block" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="bg-secondary p-5 text-white">
+        &copy; 2022 Ashraj Grewal
+        <br>
+        Not affiliated with Mercedes-Benz
     </div>
 
 
